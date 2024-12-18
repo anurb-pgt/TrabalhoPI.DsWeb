@@ -1,0 +1,200 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+.container {
+    max-width: 1490px;
+    height: 100px;
+    padding: 3%;
+    margin: 0 auto;
+    background-color: rgb(0, 0, 0);
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo {
+    font-size: 30px;
+    font-style: italic;
+    color: rgb(103, 44, 240);
+    font-weight: bold;
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav ul li {
+    display: inline-block;
+
+}
+
+nav ul li a {
+    padding: 10px 20px;
+    text-decoration: none;
+    font-size: 19px;
+    color: rgb(103, 44, 240);
+    border-radius: 30px;
+    transition: 0.6s;
+
+
+
+}
+
+nav ul li a:hover {
+    background-color: aliceblue;
+
+}
+
+.body {
+    background: black;
+}
+
+
+
+.titulo {
+    color: rgb(0, 174, 255);
+    font-style: unset;
+    background-color: rgb(3, 0, 0);
+    padding: 20px;
+    width: 900px;
+    margin: 0 auto;
+    text-indent: 60px;
+    font-size: 20px;
+    text-align: left;
+    border: 1px solid whitesmoke;
+    border-radius: 40px;
+
+
+}
+
+.introducao2 {
+
+    margin: 50px;
+    color: aliceblue;
+    width: 900px;
+    padding: 15px;
+    border-radius: 15px;
+    border: 1px solid whitesmoke;
+    backdrop-filter: blur(10px);
+    margin: 0 auto;
+    font-size: 19px;
+    text-align: justify;
+
+
+
+
+}
+
+
+.imglogo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 1000px;
+    height: 300px;
+    margin: auto;
+
+    border: 1px solid whitesmoke;
+
+
+}
+
+/*Formulario*/
+* {
+    border-radius: 20px;
+    font-size: 20px;
+    box-sizing: border-box;
+}
+
+#container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10%;
+    border: 2px solid pink;
+    background-image: linear-gradient(to right, white, pink);
+    padding: 15px;
+    
+}
+
+.grupo {
+    width: 60vi;
+    /*% vertical*/
+}
+
+input,
+select,
+fieldset {
+    width: 90%;
+    padding: 5px;
+    border: 2px solid rgb(103, 44, 240);
+    margin-top: 2px;
+}
+
+input[type=radio] {
+    width: 5%;
+}
+
+.btn {
+    background-color: rgb(225, 105, 236);
+    color: white;
+    border: solid rgb(226, 96, 220);
+    width: 100px;
+}
+
+label {
+    display: block;
+}
+
+.gen label {
+    display: inline;
+}
+
+input[type=text] {
+    background-color: white;
+    background-image: url('../imagens/searchicon.png');
+    background-position: 10px 10px;
+    background-repeat: no-repeat;
+    padding-left: 40px;
+}
+
+.corfonte {
+    color: aliceblue;
+    font-size: 17px;
+
+}
+
+.cor{
+    color: blueviolet;
+
+
+}
+
+.imgacao{
+    border-radius: 15px;
+    border: 1px solid whitesmoke;
+    backdrop-filter: blur(10px);
+    padding: 20px;
+    display: inline-block;
+    width: 900px;
+
+
+
+
+}
+.cor2{
+
+    color: rgb(0, 174, 255);;
+}
+
+a{
+text-decoration: none;
+
+}
